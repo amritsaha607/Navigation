@@ -9,7 +9,7 @@
 
 ### Arguments
 
-No of points -> Randomly generates n points in a rectangular grid & makes rad<br/>
+No of points -> Randomly generates n points in a rectangular grid & makes random undirected connections<br/>
 length -> Length of the grid<br/>
 width -> Width of the grid<br/>
 
