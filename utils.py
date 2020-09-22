@@ -3,10 +3,7 @@ class Point:
         A point object that contains x & y co-ordinates
         and connections with other points
     '''
-
-    def __init__(self):
-        self.x, self.y, self.connections = None, None, set()
-
+    
     def __init__(self, x, y):
         self.x = x
         self.y = y
