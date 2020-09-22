@@ -10,8 +10,9 @@ from utils import Point
 class Map:
     
     # Define Variables
-    self.points = []
-    self.start, self.dest = None, None
+    def __init__(self):
+        self.points = []
+        self.start, self.dest = None, None
 
 
     # Define Starting Point
