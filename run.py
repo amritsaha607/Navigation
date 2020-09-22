@@ -1,4 +1,4 @@
-from nav import Point, Map
+from nav import Map
 
 def run():
 	n_points = int(input("No of points : ")) # 400
@@ -15,8 +15,8 @@ def run():
 	# m_map.showAllConnections(m_map)
 	# m_map.showStart()
 
-	start = m_map.findStart(t_start) # Index of starting point
-	dest = m_map.findDestination(t_dest) # Index of destination point
+	start = m_map.findStart() # Index of starting point
+	dest = m_map.findDestination() # Index of destination point
 	# dest = 0 # Index of destination point
 
 	path = m_map.getPathNew(start, dest)
